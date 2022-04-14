@@ -26,7 +26,8 @@ As a member of the COVID task force, I want to see the number of persons quarant
 
 Confirmation:\
 -See number of persons quarantined, summed across all centres.\
--See number of persons quarantined who are in the category of "non-close contacts" -See a warning if no data is available for the past 7 days (8 days including today).
+-See number of persons quarantined who are in the category of "non-close contacts"\
+-See a warning if no data is available for the past 7 days (8 days including today).
    
 #### Story 3 - Verifying Consistency among Datasets
 As a member of the COVID task force, I want to check if the number of persons quarantined is consistent among all datasets, so that I can verify the integrity of our data input, and notify data input workers to re-audit the data in the quarantine centres (if inconsistency exists).
