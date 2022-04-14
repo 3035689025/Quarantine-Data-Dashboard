@@ -1,20 +1,19 @@
 ## Quarantine-Data-Dashboard
 
 ### Vision statement
+  For members of the HKSAR Covid Task Force who wish to access an overview of the current quarantine centres easily, the Quarantine Data Dashboard is a webpage that summarises and displays quarantine data, such as availability of quarantine centres and persons quarantined, and check its consistency.
 
-For members of the HKSAR Covid Task Force who wish to access an overview of the current quarantine centres easily, the Quarantine Data Dashboard is a webpage that summarises and displays quarantine data, such as availability of quarantine centres and persons quarantined, and check its consistency.
-
-Unlike the current process to monitor the quarantine situation, members who use the Quarantine Data Dashboard will not need to obtain raw data, nor construct API query strings, then calculate the values manually, which will save them time, allow them to respond to and control the COVID situation in Hong Kong.
+  Unlike the current process to monitor the quarantine situation, members who use the Quarantine Data Dashboard will not need to obtain raw data, nor construct API query strings, then calculate the values manually, which will save them time, allow them to respond to and control the COVID situation in Hong Kong.
 
 
 ### Product Backlog 
 
 #### Story 1
-Checking Availability of Quarantine Centres
-As a member of the COVID task force, I want to see the current availability of quarantine centres so that I can assign people to centres to undergo quarantine without overflowing centres.
-Confirmation:
--See unoccupied quarantine units available for use, summed across all centres.
--See quarantine units occupied by persons in quarantine, summed across all centres.
+Checking Availability of Quarantine Centres/
+As a member of the COVID task force, I want to see the current availability of quarantine centres so that I can assign people to centres to undergo quarantine without overflowing centres./
+Confirmation:/
+-See unoccupied quarantine units available for use, summed across all centres./
+-See quarantine units occupied by persons in quarantine, summed across all centres./
 -See top three centres with highest number of available unoccupied units, highest availability first (listed in decreasing order of availability).
 -See the name and number of unoccupied available units for each centre accordingly.
 -See a warning if no data is available for the past 7 days (8 days including today).
