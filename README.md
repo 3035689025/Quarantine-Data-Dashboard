@@ -1,5 +1,9 @@
 ## Quarantine-Data-Dashboard
 
+ - An online dashboard project in Python utilizing 3rd party APIs 
+ - Designed according to the agile approach
+ - Followed the Django framework and deployed on Heroku
+
 ### Vision statement
   For members of the HKSAR Covid Task Force who wish to access an overview of the current quarantine centres easily, the Quarantine Data Dashboard is a webpage that summarises and displays quarantine data, such as availability of quarantine centres and persons quarantined, and check its consistency.
 
@@ -7,7 +11,7 @@
 
 
 ### Product Backlog 
-#### Story 1 - Checking Availability of Quarantine Centres\
+#### Story 1 - Checking Availability of Quarantine Centres
 As a member of the COVID task force, I want to see the current availability of quarantine centres so that I can assign people to centres to undergo quarantine without overflowing centres.\
 
 Confirmation:\
@@ -17,14 +21,14 @@ Confirmation:\
 -See the name and number of unoccupied available units for each centre accordingly.\
 -See a warning if no data is available for the past 7 days (8 days including today).\
 
-#### Story 2 - Accessing Data about Persons Quarantined\
+#### Story 2 - Accessing Data about Persons Quarantined
 As a member of the COVID task force, I want to see the number of persons quarantined and how much of which is "non-close contacts" so that I can assess the potential positive COVID cases in the coming days and monitor the situation in quarantine centres.\
 
 Confirmation:\
 -See number of persons quarantined, summed across all centres.\
 -See number of persons quarantined who are in the category of "non-close contacts" -See a warning if no data is available for the past 7 days (8 days including today).\
    
-#### Story 3 - Verifying Consistency among Datasets\
+#### Story 3 - Verifying Consistency among Datasets
 As a member of the COVID task force, I want to check if the number of persons quarantined is consistent among all datasets, so that I can verify the integrity of our data input, and notify data input workers to re-audit the data in the quarantine centres (if inconsistency exists).\
 
 Confirmation:\
