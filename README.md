@@ -9,11 +9,11 @@
 ### Product Backlog 
 
 #### Story 1
-Checking Availability of Quarantine Centres/
-As a member of the COVID task force, I want to see the current availability of quarantine centres so that I can assign people to centres to undergo quarantine without overflowing centres./
-Confirmation:/
--See unoccupied quarantine units available for use, summed across all centres./
--See quarantine units occupied by persons in quarantine, summed across all centres./
+Checking Availability of Quarantine Centres\
+As a member of the COVID task force, I want to see the current availability of quarantine centres so that I can assign people to centres to undergo quarantine without overflowing centres.\
+Confirmation:\
+-See unoccupied quarantine units available for use, summed across all centres.\
+-See quarantine units occupied by persons in quarantine, summed across all centres.\
 -See top three centres with highest number of available unoccupied units, highest availability first (listed in decreasing order of availability).
 -See the name and number of unoccupied available units for each centre accordingly.
 -See a warning if no data is available for the past 7 days (8 days including today).
